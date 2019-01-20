@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Your Todo</title>
+    <link rel="stylesheet" href="assests/css/bootstrap.css">
+    <link rel="stylesheet" href="assests/css/master.css">
+    <script type="text/javascript">
+      var name = prompt("May i know your name ?");
+    </script>
+    <script type="text/javascript" src="assests/js/lib/jQuery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-white fixed-top bg-white shadow-sm">
+        <a class="navbar-brand text-dark"><b>Welcome <script type="text/javascript">
+           document.write(name)
+        </script> ! </b></a>
+    </nav>
+  </header>
+<body>
+  <div class="container">
+    <h1>To-Do List<i class="fa fa-plus"></i></h1>
+    <input type="text" name="" value="" placeholder="Add New Todo">
+    <ul>
+      <li><span><i class="fa fa-trash" aria-hidden="true"></i></span>first</li>
+      <li><span><i class="fa fa-trash" aria-hidden="true"></i></span> Secound</li>
+      <li><span><i class="fa fa-trash" aria-hidden="true"></i></span> Third</li>
+    </ul>
+  </div>
+    <script type="text/javascript" src="assests/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assests/js/todo.js"></script>
+  </body>
+</html>
